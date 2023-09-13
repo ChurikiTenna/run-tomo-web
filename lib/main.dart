@@ -87,13 +87,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                   child: Column(
                                     children: [
                                       Text(
-                                        'Let' 's Start Running with Friends',
-                                        style: TextStyle(
-                                          color: Colors.white,
-                                          fontSize: 30,
-                                        ),
-                                      ),
-                                      Text(
                                         'ラン友',
                                         style: TextStyle(
                                           color: Colors.white,
@@ -101,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                           fontSize: 30,
                                         ),
                                       ),
-                                      SpaceBox.height(20),
+                                      SpaceBox.height(40),
                                       SizedBox(
                                         width: 330,
                                         height: 60,
@@ -119,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontWeight: FontWeight.bold,
-                                              fontSize: 30,
+                                              fontSize: 24,
                                             ),
                                           ),
                                           style: ButtonStyle(),
@@ -135,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontWeight: FontWeight.bold,
-                                              fontSize: 30,
+                                              fontSize: 24,
                                             ),
                                           ),
                                           onPressed: () {
